@@ -12,7 +12,6 @@ export class CarsApiService {
   getCarsByUser(userId: number): Observable<Car[]> {
     return of(
         MOCK_CARS
-    //   MOCK_CARS.filter(car => car.ownerId === userId)
     );
   }
 
